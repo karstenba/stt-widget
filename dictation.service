@@ -1,0 +1,10 @@
+[Unit]
+Description=Dictation transcription daemon (faster-whisper)
+
+[Service]
+ExecStart=%h/stt/venv/bin/python %h/stt/dictation_server.py
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target
