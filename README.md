@@ -1,4 +1,4 @@
-# Dictation
+# SST Widget
 
 Local speech-to-text dictation tool using [faster-whisper](https://github.com/SYSTRAN/faster-whisper). A persistent daemon holds the Whisper model in memory, and a GTK popup (triggered by an i3 keybinding) captures audio, sends it to the daemon for transcription, copies the result to clipboard, and auto-pastes into the previously focused application.
 
