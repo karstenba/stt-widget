@@ -2,7 +2,7 @@
 Description=Dictation transcription daemon (faster-whisper)
 
 [Service]
-ExecStart=%h/stt/venv/bin/python %h/stt/dictation_server.py
+ExecStart=%h/llm-sessions/stt-widget/venv/bin/python %h/llm-sessions/stt-widget/dictation_server.py
 Restart=on-failure
 RestartSec=2
 
